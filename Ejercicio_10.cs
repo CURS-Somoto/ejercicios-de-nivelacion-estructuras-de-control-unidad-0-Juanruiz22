@@ -1,8 +1,11 @@
-/*
-Ejercicio 10: Determinar si un Número es
-Positivo, Negativo o Cero
+#include <iostream>
+using namespace std;
 
-
-Escribe un programa en C# que determine si
-un número entero dado es positivo, negativo o cero.
-*/
+int main() {
+  int num1, num2;
+  cin >> num1;
+  cin >> num2;
+  int suma = num1 + num2;
+  cout << suma << endl;
+  return 0;
+}
