@@ -1,11 +1,15 @@
-#include <iostream>
-using namespace std;
+ 
+            int num1, num2;
 
-int main() {
-  int num1, num2;
-  cin >> num1;
-  cin >> num2;
-  int suma = num1 + num2;
-  cout << suma << endl;
-  return 0;
+           
+            num1 = int.Parse(Console.ReadLine());
+            num2 = int.Parse(Console.ReadLine());
+
+           
+            int suma = num1 + num2;
+
+           
+            Console.WriteLine(suma);
+        }
+    }
 }
