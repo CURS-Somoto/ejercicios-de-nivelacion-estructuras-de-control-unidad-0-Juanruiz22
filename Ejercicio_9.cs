@@ -1,8 +1,17 @@
-/*
-Ejercicio 9: Mayor de Dos Números
+ int numero1, numero2;
 
+            
+            Console.WriteLine("Ingrese el primer número: ");
+            numero1 = int.Parse(Console.ReadLine());
+            Console.WriteLine("Ingrese el segundo número: ");
+            numero2 = int.Parse(Console.ReadLine());
 
-Dado dos números, muestra el número mayor
-utilizando una estructura if
-
-*/
+           
+            if (numero1 > numero2)
+            {
+                Console.WriteLine("El número mayor es: " + numero1);
+            }
+            else
+            {
+                Console.WriteLine("El número mayor es: " + numero2);
+            }
