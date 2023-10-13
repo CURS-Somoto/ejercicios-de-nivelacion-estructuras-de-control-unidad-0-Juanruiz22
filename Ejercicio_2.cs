@@ -1,26 +1,14 @@
+  int num1, num2;
 
-            int numero;
+           
+            num1 = int.Parse(Console.ReadLine());
+            num2 = int.Parse(Console.ReadLine());
 
-            Console.WriteLine("Ingrese un número: ");
-            numero = int.Parse(Console.ReadLine());
-            bool esPrimo = true;
+           
+            int suma = num1 + num2;
 
-            for (int i = 2; i < numero; i++)
-            {
-                if (numero % i == 0)
-                {
-                    esPrimo = false;
-                    break;
-                }
-            } 
-                    if (esPrimo)
-            {
-                Console.WriteLine("El número es primo.");
-            }
-            else
-            {
-                Console.WriteLine("El número no es primo.");
-            }
+           
+            Console.WriteLine(suma);
         }
     }
 }
