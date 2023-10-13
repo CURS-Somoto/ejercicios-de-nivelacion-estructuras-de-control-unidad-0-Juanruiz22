@@ -1,5 +1,23 @@
-/*Ejercicio 5: Positivo o negativo
+           int numero;
 
+            Console.WriteLine("Ingrese un número: ");
+            numero = int.Parse(Console.ReadLine());
 
-Escribe un programa en C# que determine si
-un número entero dado es positivo, negativo o cero.*/
+        
+            if (numero > 0)
+            {
+               
+                Console.WriteLine("El número es positivo.");
+            }
+            else if (numero < 0)
+            {
+                
+                Console.WriteLine("El número es negativo.");
+            }
+            else
+            {
+                Console.WriteLine("El número es cero.");
+            }
+        }
+    }
+}
