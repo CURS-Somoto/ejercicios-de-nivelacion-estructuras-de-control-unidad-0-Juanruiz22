@@ -1,5 +1,6 @@
-/*Ejercicio 1: Impresión de Números Pares
+             for (int i = 2; i <= 20; i++)
+            {
+                Console.WriteLine(i);
+            }
 
-
-Escribe un programa
-que muestre los números pares del 2 al 20. */
+            Console.ReadKey();
