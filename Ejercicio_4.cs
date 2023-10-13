@@ -1,5 +1,16 @@
-/*Ejercicio 4: Serie factorial
+           int numero;
 
+            Console.WriteLine("Ingrese un número: ");
+            numero = int.Parse(Console.ReadLine());
 
-Crea un programa que genere y muestre el
-resultado factorial de un numero. */
+            int factorial = 1;
+
+            for (int i = 1; i <= numero; i++)
+            {
+                factorial *= i;
+            }
+
+            Console.WriteLine("El factorial del número es: " + factorial);
+        }
+    }
+}
