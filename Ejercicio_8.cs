@@ -1,22 +1,17 @@
-/* Ejercicio 8: Secuencia de Patrones
+ int numeroDeAsteriscos = 1;
 
+           
+            for (int i = 1; i <= 5; i++)
+            {
+                
+                for (int j = 1; j <= numeroDeAsteriscos; j++)
+                {
+                    Console.Write("*");
+                }
 
-Desarrolla un programa que genere y muestre
-la siguiente secuencia de patrones:
+               
+                numeroDeAsteriscos++;
 
-
-*
-
-
-**
-
-
-***
-
-
-****
-
-
-*****
-
-*/
+               
+                Console.WriteLine();
+            }
